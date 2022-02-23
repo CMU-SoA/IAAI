@@ -11,6 +11,8 @@ body {
     font-weight: 300;
     font-size: medium;
     text-decoration: none;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /*-----------------------------
@@ -61,11 +63,9 @@ body {
 /*-----------------------------
  * ARTICLES
  *-----------------------------*/
- .columns {
+ .text {
      display: flex;
      flex-flow: row wrap;
+     justify-content: center;
  }
 
-.column {
-    flex: 1;
-}
