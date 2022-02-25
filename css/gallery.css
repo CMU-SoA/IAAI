@@ -1,7 +1,7 @@
 /*-----------------------------
  * GALLERY FORMATTING
  *-----------------------------*/
- .gallery-container {
+ .container{
   margin: 0 auto;
   width: 960px;
 }
@@ -10,11 +10,11 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 25vh;
+  height: 1vh;
 }
 
 .item {
-  padding: 15px;
+  padding: 16.5%;
   flex: 1;
   height: 100%;
   background-position: center;
@@ -26,9 +26,18 @@
  * GALLERY IMAGES
  *-----------------------------*/
 .item-1 {
-  background-image: url('anqi.jpg');
+  background-image: url('https://github.com/CMU-SoA/IAAI/blob/andrea/gallery/anqi.jpg?raw=true');
 }
 
 .item-2{
-  background-image: url('david.jpg');
+  background-image: url('https://github.com/CMU-SoA/IAAI/blob/andrea/gallery/david.jpg?raw=true');
+}
+
+.item-3{
+  background-image: url('https://github.com/CMU-SoA/IAAI/blob/andrea/gallery/jeff.jpg?raw=true');
+}
+
+img{
+  display: block;
+  width: 32px;
 }
