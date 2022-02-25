@@ -25,10 +25,10 @@
 /*-----------------------------
  * GALLERY IMAGES
  *-----------------------------*/
-#item-1 {
-  background-image: url('anqi.jpg')
+.item-1 {
+  background-image: url('anqi.jpg');
 }
 
-#item-2{
-  background-image: url('david.jpg')
+.item-2{
+  background-image: url('david.jpg');
 }
